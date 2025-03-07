@@ -1,0 +1,15 @@
+﻿<Window x:Class="ModoClaroOscuroWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ModoClaroOscuroWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnToggleModo" Content="🌞 / 🌙" Height="40" Click="BtnToggleModo_Click" VerticalAlignment="Top" Margin="278,41,300,0"/>
+        <Label x:Name="lblPostUsuario" Content="@NuevoUsuario" FontWeight="Bold" FontSize="14" VerticalAlignment="Top" Margin="325,103,-275,0"/>
+        <Image x:Name="pbPostImagen" Width="200" Height="150" VerticalAlignment="Top" Margin="289,132,311,0"   Source="imagen/libro.png"/>
+        <Label x:Name="lblPostTexto" Content="Este es un nuevo post con contenido personalizado." Width="300" VerticalAlignment="Top" Margin="250,301,250,0" RenderTransformOrigin="-0.345,-0.025"/>
+    </Grid>
+</Window>
